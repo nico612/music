@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermServiceDialogVC" customModule="Music" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="MZm-Ec-ew2">
+                    <rect key="frame" x="0.0" y="238.66666666666663" width="393" height="375"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Zm-P7-JpG">
+                            <rect key="frame" x="16" y="16" width="361" height="343"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="服务条款与隐私协议提示" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgx-MS-69a">
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I13-vj-jhK">
+                                    <rect key="frame" x="0.0" y="31.000000000000028" width="361" height="200"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="200" id="RrV-ak-8pL"/>
+                                    </constraints>
+                                    <mutableString key="text">公司CFO David Wehner也在财报中给出了眼下正在面临的一系列增长压力。Wehner透露，目前各个内容平台对消费者使用时间的竞争正在加剧。即便是在公司内部的产品线中，消费者的粘性也呈现向Reels这样的视频界面转移的倾向，但该功能的货币转化率要低于信息流等传统文字业务。此外，META也预期苹果的iOS系统规则变更和监管带来的变化将继续对定向广告业务带来负面影响，同时实体经济中的通胀和供应链问题也会影响广告主的预算。此外在美联储加息周期中，外汇（美元对其他货币升值）也将成为公司营收增长的负面因素。作为Facebook的母公司，Meta Platforms Inc.第四季度用户增长陷入停滞，并且本季度展望令人失望，引发了对于该公司未来增长前景的担忧，该公司最终可能难以证明对元宇宙（首席执行官扎克伯格的沉浸式互联网愿景）的昂贵押注是合理的公司CFO David Wehner也在财报中给出了眼下正在面临的一系列增长压力。Wehner透露，目前各个内容平台对消费者使用时间的竞争正在加剧。即便是在公司内部的产品线中，消费者的粘性也呈现向Reels这样的视频界面转移的倾向，但该功能的货币转化率要低于信息流等传统文字业务。此外，META也预期苹果的iOS系统规则变更和监管带来的变化将继续对定向广告业务带来负面影响，同时实体经济中的通胀和供应链问题也会影响广告主的预算。此外在美联储加息周期中，外汇（美元对其他货币升值）也将成为公司营收增长的负面因素。作为Facebook的母公司，Meta Platforms Inc.第四季度用户增长陷入停滞，并且本季度展望令人失望，引发了对于该公司未来增长前景的担忧，该公司最终可能难以证明对元宇宙（首席执行官扎克伯格的沉浸式互联网愿景）的昂贵押注是合理的</mutableString>
+                                    <color key="textColor" systemColor="labelColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UA7-dk-fh5">
+                                    <rect key="frame" x="0.0" y="241" width="361" height="42"/>
+                                    <color key="backgroundColor" name="Color_Red"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="47z-zu-1xM"/>
+                                    </constraints>
+                                    <color key="tintColor" name="Color_white"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="同意" cornerStyle="small">
+                                        <backgroundConfiguration key="background"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="qmui_borderColor">
+                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="21"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="_agreeAction:" destination="-1" eventType="touchUpInside" id="qS6-Jw-L19"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOC-a2-4SW">
+                                    <rect key="frame" x="0.0" y="293" width="361" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="C3p-kj-txs"/>
+                                    </constraints>
+                                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="不同意并退出应用">
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="_exitAction:" destination="-1" eventType="touchUpInside" id="jTS-RL-tCz"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="zgx-MS-69a" firstAttribute="top" secondItem="2Zm-P7-JpG" secondAttribute="top" id="4ph-uM-nZI"/>
+                                <constraint firstAttribute="bottom" secondItem="mOC-a2-4SW" secondAttribute="bottom" constant="10" id="9lA-hJ-sM7"/>
+                                <constraint firstAttribute="trailing" secondItem="mOC-a2-4SW" secondAttribute="trailing" id="IBR-5a-Zvk"/>
+                                <constraint firstItem="mOC-a2-4SW" firstAttribute="top" secondItem="UA7-dk-fh5" secondAttribute="bottom" constant="10" id="LdN-ZS-ash"/>
+                                <constraint firstItem="I13-vj-jhK" firstAttribute="top" secondItem="zgx-MS-69a" secondAttribute="bottom" constant="10" id="N9y-kH-oeb"/>
+                                <constraint firstItem="I13-vj-jhK" firstAttribute="leading" secondItem="2Zm-P7-JpG" secondAttribute="leading" id="OTW-a5-9c8"/>
+                                <constraint firstAttribute="trailing" secondItem="UA7-dk-fh5" secondAttribute="trailing" id="Xb2-ac-vHJ"/>
+                                <constraint firstItem="UA7-dk-fh5" firstAttribute="leading" secondItem="2Zm-P7-JpG" secondAttribute="leading" id="ZWR-NB-s1n"/>
+                                <constraint firstItem="zgx-MS-69a" firstAttribute="leading" secondItem="2Zm-P7-JpG" secondAttribute="leading" id="gQ8-3p-vNy"/>
+                                <constraint firstItem="UA7-dk-fh5" firstAttribute="top" secondItem="I13-vj-jhK" secondAttribute="bottom" constant="10" id="lDr-Nq-9h3"/>
+                                <constraint firstAttribute="trailing" secondItem="I13-vj-jhK" secondAttribute="trailing" id="qF6-k1-wAJ"/>
+                                <constraint firstAttribute="trailing" secondItem="zgx-MS-69a" secondAttribute="trailing" id="sXn-j7-vqe"/>
+                                <constraint firstItem="zgx-MS-69a" firstAttribute="centerX" secondItem="2Zm-P7-JpG" secondAttribute="centerX" id="t38-Uc-mk4"/>
+                                <constraint firstItem="mOC-a2-4SW" firstAttribute="leading" secondItem="2Zm-P7-JpG" secondAttribute="leading" id="uOK-dl-TO5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="2Zm-P7-JpG" secondAttribute="bottom" constant="16" id="0cD-xy-aNo"/>
+                        <constraint firstAttribute="trailing" secondItem="2Zm-P7-JpG" secondAttribute="trailing" constant="16" id="7PP-rG-2jY"/>
+                        <constraint firstItem="2Zm-P7-JpG" firstAttribute="top" secondItem="MZm-Ec-ew2" secondAttribute="top" constant="16" id="QLo-D2-vZF"/>
+                        <constraint firstItem="2Zm-P7-JpG" firstAttribute="leading" secondItem="MZm-Ec-ew2" secondAttribute="leading" constant="16" id="kmA-WQ-uGA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MZm-Ec-ew2" secondAttribute="trailing" id="516-nc-qfz"/>
+                <constraint firstItem="MZm-Ec-ew2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Til-qf-ZPC"/>
+                <constraint firstItem="MZm-Ec-ew2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="VGa-6Y-3pu"/>
+                <constraint firstItem="MZm-Ec-ew2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mhV-mz-HzN"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Color_Red">
+            <color red="1" green="0.14569002923753338" blue="0.25892455019494076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color_white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
